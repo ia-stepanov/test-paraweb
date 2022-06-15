@@ -23,14 +23,13 @@
   justify-content: space-between;
   max-width: 1164px;
   margin: 0 auto;
-  padding: 29px 0;
+  padding: 29px 0 27px;
 }
 
 .header__logo {
   width: 121px;
   height: 30px;
-  background: transparent url(../images/logo-header.svg) center center / contain
-    no-repeat;
+  background: url(../images/logo-header.svg) center center / contain no-repeat;
 }
 
 .header__links {
@@ -46,4 +45,70 @@
 .header__link {
   font-size: 16px;
   font-weight: 500;
+}
+
+.carousel {
+  min-height: 546px;
+  background: url(../images/carousel-img.png) right top / 670px no-repeat,
+    linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
+  padding: 100px 138px 59px 138px;
+  box-sizing: border-box;
+}
+
+.carousel__title {
+  max-width: 572px;
+  margin: 0;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.carousel__subtitle {
+  max-width: 454px;
+  margin: 22px 0 32px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.carousel__btn {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  color: #0050ef;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  transition: opacity 0.2s linear;
+}
+.carousel__btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.carousel__dots {
+  margin-top: 102px;
+}
+
+.carousel__dot {
+  display: inline-block;
+  margin-left: 2px;
+  width: 29px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #fff;
+  opacity: 0.3;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+.carousel__dot_active,
+.carousel__dot:hover {
+  opacity: 1;
+}
+
+.carousel__dot:first-child {
+  margin-left: 0;
 }
