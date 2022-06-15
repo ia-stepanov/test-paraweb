@@ -1,2 +1,49 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
+.root {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #888888;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  text-rendering: optimizeLegibility;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1164px;
+  margin: 0 auto;
+  padding: 29px 0;
+}
+
+.header__logo {
+  width: 121px;
+  height: 30px;
+  background: transparent url(../images/logo-header.svg) center center / contain
+    no-repeat;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 288px;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 7px 0;
+}
+
+.header__link {
+  font-size: 16px;
+  font-weight: 500;
+}
