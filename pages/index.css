@@ -7,6 +7,7 @@
 
   font-family: "Montserrat", Arial, sans-serif;
   color: #888888;
+  background-color: #f6f9ff;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,9 +22,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 1164px;
   margin: 0 auto;
-  padding: 29px 0 27px;
+  padding: 29px 138px 27px;
+  background-color: #fff;
 }
 
 .header__logo {
@@ -111,4 +112,77 @@
 
 .carousel__dot:first-child {
   margin-left: 0;
+}
+
+.sticky-filter {
+  display: flex;
+  padding: 40px 138px;
+}
+
+.sticky-filter__author {
+  max-width: 335px;
+  width: 100%;
+  margin-right: 20px;
+  padding: 16px 46px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(../images/icon-arrow.svg) 94% 50% no-repeat,
+    url(../images/icon-user.svg) 5.1% 50% no-repeat, #fff;
+
+  color: #888888;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.sticky-filter__date {
+  display: flex;
+  max-width: 336px;
+  padding: 8px 16px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.date-filter__date-container {
+  display: flex;
+  position: relative;
+  max-width: 132px;
+}
+
+.sticky-filter__date-label {
+  padding: 8px 16px 8px 0;
+  color: #888888;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.sticky-filter__date-input-hidden {
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #888888;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.sticky-filter__date-input-select {
+  position: absolute;
+  inset: 0;
+  border: none;
+  visibility: hidden;
+}
+
+.sticky-filter__date-dash {
+  display: flex;
+  align-self: center;
+  width: 10px;
+  height: 2px;
+  margin: 0px 15px;
+  border-radius: 2px;
+  background-color: #888888;
 }

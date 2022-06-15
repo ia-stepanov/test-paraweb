@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Тестовое задание «Паравеб»</title>
-  <link rel="stylesheet" href="./pages/index.css"/>
-  <link rel="icon" type="image/png" href="./images/favicon.png">
-</head>
-<body>
-  <div class="root">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое задание «Паравеб»</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+  </head>
+  <body>
+    <div class="root">
+      <header class="header">
+        <div class="header__logo"></div>
+        <ul class="header__links">
+          <li class="header__link">8 800 000 00 00</li>
+          <li class="header__link">sales@logo.ru</li>
+        </ul>
+      </header>
 
-    <header  class="header">
-      <div class="header__logo"></div>
-      <ul class="header__links">
-        <li class="header__link">8 800 000 00 00</li>
-        <li class="header__link">sales@logo.ru</li>
-      </ul>
-    </header>
+      <main class="content">
+        <section class="carousel">
+          <h1 class="carousel__title">
+            Как бизнесу сохранять IT&#8209;кадры на фоне кризиса
+          </h1>
+          <p class="carousel__subtitle">
+            Инструменты, которые могут использовать компании для удержания
+            сотрудников
+          </p>
+          <button class="carousel__btn" type="button" title="Подробнее">
+            Подробнее
+          </button>
+          <div class="carousel__dots">
+            <span class="carousel__dot carousel__dot_active"></span>
+            <span class="carousel__dot"></span>
+            <span class="carousel__dot"></span>
+          </div>
+        </section>
 
-    <main class="content">
-      <section class="carousel">
-        <h1 class="carousel__title">Как бизнесу сохранять IT&#8209;кадры на фоне кризиса</h1>
-        <p class="carousel__subtitle">Инструменты, которые могут использовать компании для удержания сотрудников</p>
-        <button class="carousel__btn" type="button" title="Подробнее">Подробнее</button>
-        <div class="carousel__dots">
-          <span class="carousel__dot carousel__dot_active"></span>
-          <span class="carousel__dot"></span>
-          <span class="carousel__dot"></span>
-        </div>
-      </section>
+        <section class="sticky-filter">
+          <select class="sticky-filter__author" name="author">
+            <option>Выбор автора</option>
+          </select>
 
-      
-  </div>
-  <!-- <script src="./pages/script.js"></script> -->
-</body>
+          <div class="sticky-filter__date">
+            <div class="date-filter__date-container">
+              <label class="sticky-filter__date-label" for="input-hidden">От</label>
+              <input  class="sticky-filter__date-input-hidden" id="input-hidden"/>
+              <input class="sticky-filter__date-input-select" type="date" />
+            </div>
+            <span class="sticky-filter__date-dash"></span>
+            <div class="date-filter__date-container">
+              <label class="sticky-filter__date-label" for="input-hidden">До</label>
+              <input class="sticky-filter__date-input-hidden" id="input-hidden"/>
+              <input class="sticky-filter__date-input-select" type="date" />
+            </div>
+          </div>
+        </section>
+
+        
+      </main>
+    </div>
+    <!-- <script src="./pages/script.js"></script> -->
+  </body>
 </html>
