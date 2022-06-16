@@ -121,6 +121,7 @@
     calc((100vw - 390px) / (1440 - 390) * (138 - 16) + 16px)
     calc((100vw - 390px) / (1440 - 390) * (59 - 20) + 20px);
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .carousel__title {
@@ -227,13 +228,14 @@
 
 .sticky-filter {
   display: flex;
-  padding: 40px 138px;
+  gap: 20px;
+  padding: calc((100vw - 390px) / (1440 - 390) * (40 - 32) + 32px)
+    calc((100vw - 390px) / (1440 - 390) * (138 - 16) + 16px);
 }
 
 .sticky-filter__author {
-  max-width: 335px;
+  max-width: calc((100vw - 390px) / (1440 - 390) * (335 - 358) + 358px);
   width: 100%;
-  margin-right: 20px;
   padding: 16px 46px;
   outline: none;
   border: none;
@@ -246,6 +248,7 @@
     url(../images/icon-user.svg) 5.1% 50% no-repeat, #fff;
 
   color: #888888;
+  font-size: calc((100vw - 390px) / (1440 - 390) * (16 - 14) + 14px);
   font-weight: 600;
   line-height: 20px;
   cursor: pointer;
@@ -253,13 +256,15 @@
 
 .sticky-filter__date {
   display: flex;
-  max-width: 336px;
+  max-width: calc((100vw - 390px) / (1440 - 390) * (336 - 358) + 358px);
+  width: 100%;
   padding: 8px 16px;
   background-color: #fff;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 
-.date-filter__date-container {
+.sticky-filter__date-container {
   display: flex;
   position: relative;
   max-width: 132px;
@@ -268,6 +273,7 @@
 .sticky-filter__date-label {
   padding: 8px 16px 8px 0;
   color: #888888;
+  font-size: calc((100vw - 390px) / (1440 - 390) * (16 - 14) + 14px);
   font-weight: 600;
   line-height: 20px;
 }
@@ -296,6 +302,43 @@
   margin: 0px 15px;
   border-radius: 2px;
   background-color: #888888;
+}
+
+@media screen and (min-width: 1440px) {
+  .sticky-filter {
+    padding: 40px 138px;
+  }
+
+  .sticky-filter__author {
+    max-width: 335px;
+    font-size: 16px;
+  }
+
+  .sticky-filter__date {
+    max-width: 336px;
+  }
+
+  .sticky-filter__date-label {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .sticky-filter {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .sticky-filter__author {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sticky-filter__date-dash {
+    margin: 0px 16px 0 25px;
+  }
 }
 
 .cards {
