@@ -1,0 +1,24 @@
+.card__badge-name {
+  max-width: 84px;
+  margin: 24px 0 0;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background: #f6f9ff;
+  color: #0050ef;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  transition: background 0.2s linear, color 0.2s linear;
+}
+
+.card__badge-name:hover {
+  background: #dce9fe;
+  color: #0f63ed;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 815px) {
+  .card__badge-name {
+    margin: 20px 0 0;
+  }
+}

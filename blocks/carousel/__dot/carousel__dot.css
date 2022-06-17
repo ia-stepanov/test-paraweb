@@ -1,0 +1,26 @@
+.carousel__dot {
+  display: inline-block;
+  margin-left: 2px;
+  width: 29px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #fff;
+  opacity: 0.3;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.carousel__dot:hover {
+  opacity: 1;
+}
+
+.carousel__dot:first-child {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 425px) {
+  .carousel__dot {
+    width: 20px;
+    height: 3px;
+  }
+}

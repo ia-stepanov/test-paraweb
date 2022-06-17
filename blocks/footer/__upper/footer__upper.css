@@ -1,0 +1,10 @@
+.footer__upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 815px) {
+  .footer__upper {
+    flex-direction: column;
+  }
+}

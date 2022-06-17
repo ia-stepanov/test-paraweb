@@ -1,0 +1,18 @@
+.carousel__subtitle {
+  max-width: calc(var(--range) * (454 - 318) + 318px);
+  margin: calc(var(--range) * (22 - 20) + 20px) 0
+    calc(var(--range) * (32 - 25) + 25px);
+  color: #fff;
+  font-size: calc(var(--range) * (16 - 14) + 14px);
+  line-height: calc(var(--range) * (24 - 22) + 22px);
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__subtitle {
+    max-width: 454px;
+    margin: 22px 0 32px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

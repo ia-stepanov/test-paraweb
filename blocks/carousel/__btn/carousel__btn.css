@@ -1,0 +1,24 @@
+.carousel__btn {
+  padding: calc(var(--range) * (16 - 13) + 13px)
+    calc(var(--range) * (32 - 24) + 24px);
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  color: #0050ef;
+  font-weight: 600;
+  font-size: calc(var(--range) * (16 - 14) + 14px);
+  line-height: 20px;
+  transition: opacity 0.2s linear;
+}
+
+.carousel__btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__btn {
+    padding: 16px 32px;
+    font-size: 16px;
+  }
+}

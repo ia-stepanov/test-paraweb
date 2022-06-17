@@ -1,0 +1,6 @@
+.footer__social-icon-tg {
+  display: block;
+  width: 16px;
+  height: 14px;
+  background: url(../../../images/icon-telegram.svg) center / contain no-repeat;
+}

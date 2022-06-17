@@ -1,0 +1,6 @@
+.footer__social-icon-vk {
+  display: block;
+  width: 18px;
+  height: 11px;
+  background: url(../../../images/icon-vk.svg) center / contain no-repeat;
+}

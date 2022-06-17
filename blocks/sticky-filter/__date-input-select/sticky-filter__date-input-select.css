@@ -1,0 +1,6 @@
+.sticky-filter__date-input-select {
+  position: absolute;
+  inset: 0;
+  border: none;
+  visibility: hidden;
+}

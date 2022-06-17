@@ -1,0 +1,27 @@
+.footer__author {
+  margin: 0;
+  text-decoration: none;
+  color: #ccd1da;
+  font-size: calc(var(--range) * (14 - 12) + 12px);
+  line-height: 20px;
+  order: 1;
+  transition: opacity 0.2s linear;
+}
+
+.footer__author:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__author {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .footer__author {
+    margin: 18px 0 0;
+    order: 2;
+  }
+}

@@ -1,0 +1,19 @@
+.footer__logo {
+  width: calc(var(--range) * (194 - 129) + 129px);
+  height: calc(var(--range) * (48 - 32) + 32px);
+  margin-right: 48px;
+  background: url(../../../images/logo-footer.svg) center / contain no-repeat;
+  transition: opacity 0.2s linear;
+}
+
+.footer__logo:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__logo {
+    width: 194px;
+    height: 48px;
+  }
+}

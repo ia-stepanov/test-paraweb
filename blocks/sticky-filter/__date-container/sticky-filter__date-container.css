@@ -1,0 +1,5 @@
+.sticky-filter__date-container {
+  display: flex;
+  position: relative;
+  max-width: 132px;
+}

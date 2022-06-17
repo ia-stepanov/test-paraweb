@@ -1,0 +1,21 @@
+:root {
+  --range: (100vw - 390px) / (1440 - 390);
+}
+
+.root {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #888888;
+  background-color: #f6f9ff;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  text-rendering: optimizeLegibility;
+}

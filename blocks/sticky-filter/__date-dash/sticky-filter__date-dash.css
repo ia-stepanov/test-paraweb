@@ -1,0 +1,15 @@
+.sticky-filter__date-dash {
+  display: flex;
+  align-self: center;
+  width: 10px;
+  height: 2px;
+  margin: 0px 15px;
+  border-radius: 2px;
+  background-color: #888888;
+}
+
+@media screen and (max-width: 425px) {
+  .sticky-filter__date-dash {
+    margin: 0px 16px 0 25px;
+  }
+}

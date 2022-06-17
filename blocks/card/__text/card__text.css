@@ -1,0 +1,12 @@
+.card__text {
+  margin: 0;
+  font-size: calc(var(--range) * (16 - 14) + 14px);
+  line-height: calc(var(--range) * (24 - 22) + 22px);
+}
+
+@media screen and (min-width: 1440px) {
+  .card__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

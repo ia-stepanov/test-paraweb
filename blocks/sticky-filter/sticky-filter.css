@@ -1,0 +1,24 @@
+.sticky-filter {
+  position: sticky;
+  top: calc(var(--range) * (88 - 56) + 56px);
+  display: flex;
+  gap: 20px;
+  padding: calc(var(--range) * (40 - 32) + 32px)
+    calc(var(--range) * (138 - 16) + 16px);
+  background-color: #f6f9ff;
+}
+
+@media screen and (min-width: 1440px) {
+  .sticky-filter {
+    top: 88px;
+    padding: 40px 138px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .sticky-filter {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.card__title {
+  margin: 8px 0 18px;
+  color: #595959;
+  font-size: calc(var(--range) * (20 - 18) + 18px);
+  font-weight: 600;
+  line-height: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .card__title {
+    margin: 3px 0 11px;
+  }
+}

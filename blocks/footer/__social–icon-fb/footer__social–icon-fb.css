@@ -1,0 +1,6 @@
+.footer__social-icon-fb {
+  display: block;
+  width: 10px;
+  height: 16px;
+  background: url(../../../images/icon-facebook.svg) center / contain no-repeat;
+}

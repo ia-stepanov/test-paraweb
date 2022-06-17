@@ -1,0 +1,28 @@
+.carousel {
+  height: calc(var(--range) * (546 - 365) + 365px);
+  background: url(../../images/carousel-img.png)
+      calc(var(--range) * (771 - 160) + 160px)
+      calc(var(--range) * (0 - 154) + 154px) /
+      calc(var(--range) * (670 - 232) + 232px) no-repeat,
+    linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
+  padding: calc(var(--range) * (100 - 20) + 20px)
+    calc(var(--range) * (138 - 16) + 16px) calc(var(--range) * (59 - 20) + 20px);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel {
+    height: 546px;
+    background: url(../../images/carousel-img.png) 771px 0px / 670px
+        no-repeat,
+      linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
+    padding: 100px 138px 59px 138px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .carousel {
+    margin-top: 16px;
+  }
+}

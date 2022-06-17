@@ -1,0 +1,6 @@
+.header__img-phone {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url(../images/icon-phone.svg) center / contain no-repeat;
+}

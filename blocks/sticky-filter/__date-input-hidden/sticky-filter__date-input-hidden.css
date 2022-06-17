@@ -1,0 +1,8 @@
+.sticky-filter__date-input-hidden {
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #888888;
+  font-weight: 600;
+  line-height: 20px;
+}

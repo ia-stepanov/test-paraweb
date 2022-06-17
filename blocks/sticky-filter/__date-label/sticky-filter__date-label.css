@@ -1,0 +1,13 @@
+.sticky-filter__date-label {
+  padding: 8px 16px 8px 0;
+  color: #888888;
+  font-size: calc(var(--range) * (16 - 14) + 14px);
+  font-weight: 600;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  .sticky-filter__date-label {
+    font-size: 16px;
+  }
+}

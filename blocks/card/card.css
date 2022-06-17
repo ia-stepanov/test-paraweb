@@ -1,0 +1,26 @@
+.card {
+  max-height: 252px;
+  padding: calc(var(--range) * (24 - 20) + 20px);
+  padding-bottom: calc(var(--range) * (24 - 21) + 21px);
+  border-radius: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .card {
+    max-height: 247px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .card {
+    box-sizing: content-box;
+  }
+}

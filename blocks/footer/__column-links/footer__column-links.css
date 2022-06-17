@@ -1,0 +1,19 @@
+.footer__column-links {
+  display: none;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 462px;
+}
+
+@media screen and (max-width: 815px) {
+  .footer__column-links {
+    display: flex;
+    margin: 16px 0 0;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .footer__column-links {
+    justify-content: flex-start;
+  }
+}

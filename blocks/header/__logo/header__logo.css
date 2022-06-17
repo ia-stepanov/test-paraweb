@@ -1,0 +1,12 @@
+.header__logo {
+  width: calc(var(--range) * (121 - 96) + 96px);
+  height: calc(var(--range) * (30 - 24) + 24px);
+  background: url(../../../images/logo-header.svg) center / contain no-repeat;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__logo {
+    width: 121px;
+    height: 30px;
+  }
+}

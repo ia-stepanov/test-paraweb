@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: calc(var(--range) * (29 - 16) + 16px)
+    calc(var(--range) * (138 - 16) + 16px) calc(var(--range) * (27 - 16) + 16px);
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 29px 138px 27px;
+  }
+}

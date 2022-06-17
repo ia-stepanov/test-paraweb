@@ -1,0 +1,9 @@
+.carousel__dots {
+  margin-top: calc(var(--range) * (102 - 128) + 128px);
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__dots {
+    margin-top: 102px;
+  }
+}

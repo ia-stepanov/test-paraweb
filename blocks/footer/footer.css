@@ -1,0 +1,18 @@
+.footer {
+  margin: 80px auto 0;
+  padding: calc(var(--range) * (48 - 24) + 24px)
+    calc(var(--range) * (138 - 16) + 16px);
+  background-color: #011846;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 48px 138px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .footer {
+    margin: 56px auto 0;
+  }
+}

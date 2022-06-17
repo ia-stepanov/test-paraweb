@@ -1,0 +1,15 @@
+.sticky-filter__date {
+  display: flex;
+  max-width: calc(var(--range) * (336 - 358) + 358px);
+  width: 100%;
+  padding: 8px 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+  .sticky-filter__date {
+    max-width: 336px;
+  }
+}

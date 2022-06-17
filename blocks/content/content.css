@@ -1,0 +1,9 @@
+.content {
+  padding-top: calc(var(--range) * (88 - 56) + 56px);
+}
+
+@media screen and (min-width: 1440px) {
+  .content {
+    padding-top: 88px;
+  }
+}

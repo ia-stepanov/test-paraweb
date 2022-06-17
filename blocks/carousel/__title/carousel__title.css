@@ -1,0 +1,16 @@
+.carousel__title {
+  max-width: calc(var(--range) * (570 - 284) + 284px);
+  margin: 0;
+  color: #fff;
+  font-size: calc(var(--range) * (40 - 20) + 20px);
+  font-weight: 600;
+  line-height: calc(var(--range) * (56 - 24) + 24px);
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__title {
+    max-width: 572px;
+    font-size: 40px;
+    line-height: 56px;
+  }
+}

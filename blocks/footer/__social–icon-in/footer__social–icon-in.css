@@ -1,0 +1,6 @@
+.footer__social-icon-in {
+  display: block;
+  width: 17px;
+  height: 17px;
+  background: url(../../../images/icon-linkedin.svg) center / contain no-repeat;
+}
