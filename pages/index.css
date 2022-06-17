@@ -23,13 +23,26 @@
   text-rendering: optimizeLegibility;
 }
 
+.content {
+  padding-top: calc(var(--range) * (88 - 56) + 56px);
+}
+
+@media screen and (min-width: 1440px) {
+  .content {
+    padding-top: 88px;
+  }
+}
+
 .header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
+  width: 1440px;
   margin: 0 auto;
   padding: calc(var(--range) * (29 - 16) + 16px)
     calc(var(--range) * (138 - 16) + 16px) calc(var(--range) * (27 - 16) + 16px);
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 .header__logo {
@@ -357,6 +370,7 @@
 .card {
   max-height: 252px;
   padding: calc(var(--range) * (24 - 20) + 20px);
+  padding-bottom: calc(var(--range) * (24 - 21) + 21px);
   border-radius: 20px;
   background-color: #fff;
   box-sizing: border-box;
@@ -425,6 +439,7 @@
 
   .card {
     max-height: 247px;
+
   }
 
   .card__title {
