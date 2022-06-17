@@ -2,6 +2,12 @@
   width: calc(var(--range) * (121 - 96) + 96px);
   height: calc(var(--range) * (30 - 24) + 24px);
   background: url(../../../images/logo-header.svg) center / contain no-repeat;
+  transition: opacity 0.2s linear;
+}
+
+.header__logo:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1440px) {
