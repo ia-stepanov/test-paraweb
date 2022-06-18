@@ -145,8 +145,8 @@ dateFilterTo.addEventListener("change", () =>
 $(".carousel").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: false,
-  autoplaySpeed: 2000,
+  autoplay: true,
+  autoplaySpeed: 3000,
   arrows: false,
   dots: true,
 });
