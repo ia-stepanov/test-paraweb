@@ -15,8 +15,8 @@
 }
 
 @font-face {
-  src: url(./Montserrat/Montserrat-Black.woff2) format('woff2'),
-       url(./Montserrat/Montserrat-Black.woff) format('woff');
+  src: url(./Montserrat/Montserrat-SemiBold.woff2) format('woff2'),
+       url(./Montserrat/Montserrat-SemiBold.woff) format('woff');
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;

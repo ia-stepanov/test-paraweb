@@ -1,4 +1,5 @@
 .carousel__dots {
+  display: none;
   margin-top: calc(var(--range) * (102 - 128) + 128px);
 }
 

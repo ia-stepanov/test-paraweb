@@ -9,6 +9,7 @@
     calc(var(--range) * (138 - 16) + 16px) calc(var(--range) * (27 - 16) + 16px);
   background-color: #fff;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 @media screen and (min-width: 1440px) {
