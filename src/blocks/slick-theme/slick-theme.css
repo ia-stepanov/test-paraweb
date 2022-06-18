@@ -81,6 +81,7 @@
 }
 .slick-dots li button:before:hover {
   opacity: 1;
+  color: black;
 }
 
 @media screen and (min-width: 1440px) {
