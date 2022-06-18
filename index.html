@@ -97,102 +97,40 @@
         </section>
 
         <section class="sticky-filter">
-          <select class="sticky-filter__author" name="author">
-            <option>Выбор автора</option>
-          </select>
+          <select class="sticky-filter__author" name="author"></select>
 
           <div class="sticky-filter__date">
             <div class="sticky-filter__date-container">
-              <label class="sticky-filter__date-label" for="input-hidden-1"
+              <label class="sticky-filter__date-label" for="input-hidden-from"
                 >От</label
               >
               <input
                 class="sticky-filter__date-input-hidden"
-                id="input-hidden-1"
+                id="input-hidden-from"
               />
-              <input class="sticky-filter__date-input-select" type="date" />
+              <input
+                class="sticky-filter__date-input-select input-hidden-from"
+                type="date"
+              />
             </div>
             <span class="sticky-filter__date-dash"></span>
             <div class="sticky-filter__date-container">
-              <label class="sticky-filter__date-label" for="input-hidden-2"
+              <label class="sticky-filter__date-label" for="input-hidden-to"
                 >До</label
               >
               <input
                 class="sticky-filter__date-input-hidden"
-                id="input-hidden-2"
+                id="input-hidden-to"
               />
-              <input class="sticky-filter__date-input-select" type="date" />
+              <input
+                class="sticky-filter__date-input-select input-hidden-to"
+                type="date"
+              />
             </div>
           </div>
         </section>
 
-        <section class="cards">
-          <div class="card">
-            <p class="card__date">12 июня 2022</p>
-            <h2 class="card__title">Заголовок статьи</h2>
-            <p class="card__text">
-              Краткое описание статьи или ее&nbsp;начало. Может занимать больше
-              трех строк в&nbsp;высоту. В&nbsp;таком случае предложение
-              заканчивается многоточием...
-            </p>
-            <p class="card__badge-name">Иван Иванов</p>
-          </div>
-
-          <div class="card">
-            <p class="card__date">12 июня 2022</p>
-            <h2 class="card__title">Заголовок статьи</h2>
-            <p class="card__text">
-              Краткое описание статьи или ее&nbsp;начало. Может занимать больше
-              трех строк в&nbsp;высоту. В&nbsp;таком случае предложение
-              заканчивается многоточием...
-            </p>
-            <p class="card__badge-name">Иван Иванов</p>
-          </div>
-
-          <div class="card">
-            <p class="card__date">12 июня 2022</p>
-            <h2 class="card__title">Заголовок статьи</h2>
-            <p class="card__text">
-              Краткое описание статьи или ее&nbsp;начало. Может занимать больше
-              трех строк в&nbsp;высоту. В&nbsp;таком случае предложение
-              заканчивается многоточием...
-            </p>
-            <p class="card__badge-name">Иван Иванов</p>
-          </div>
-
-          <div class="card">
-            <p class="card__date">12 июня 2022</p>
-            <h2 class="card__title">Заголовок статьи</h2>
-            <p class="card__text">
-              Краткое описание статьи или ее&nbsp;начало. Может занимать больше
-              трех строк в&nbsp;высоту. В&nbsp;таком случае предложение
-              заканчивается многоточием...
-            </p>
-            <p class="card__badge-name">Иван Иванов</p>
-          </div>
-
-          <div class="card">
-            <p class="card__date">12 июня 2022</p>
-            <h2 class="card__title">Заголовок статьи</h2>
-            <p class="card__text">
-              Краткое описание статьи или ее&nbsp;начало. Может занимать больше
-              трех строк в&nbsp;высоту. В&nbsp;таком случае предложение
-              заканчивается многоточием...
-            </p>
-            <p class="card__badge-name">Иван Иванов</p>
-          </div>
-
-          <div class="card">
-            <p class="card__date">12 июня 2022</p>
-            <h2 class="card__title">Заголовок статьи</h2>
-            <p class="card__text">
-              Краткое описание статьи или ее&nbsp;начало. Может занимать больше
-              трех строк в&nbsp;высоту. В&nbsp;таком случае предложение
-              заканчивается многоточием...
-            </p>
-            <p class="card__badge-name">Иван Иванов</p>
-          </div>
-        </section>
+        <section class="cards"></section>
       </main>
 
       <footer class="footer">
@@ -278,6 +216,16 @@
         </div>
       </footer>
     </div>
+
+    <template id="card-template">
+      <div class="card">
+        <p class="card__date"></p>
+        <h2 class="card__title"></h2>
+        <p class="card__text"></p>
+        <p class="card__badge-name"></p>
+      </div>
+    </template>
+
     <script type="module" src="./dist/main.js"></script>
   </body>
 </html>
