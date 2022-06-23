@@ -64,7 +64,7 @@
 ## Скриншот:
 <details><summary><b>Развернуть</b></summary>
 
-[![test-paraweb](https://user-images.githubusercontent.com/86494748/174473648-27ccccc2-2ba8-47ab-a595-e319148f485c.jpg)](https://ia-stepanov.github.io/mesto/)
+[![test-paraweb](https://user-images.githubusercontent.com/86494748/174473648-27ccccc2-2ba8-47ab-a595-e319148f485c.jpg)](https://ia-stepanov.github.io/test-paraweb/)
 
 </details>
 
